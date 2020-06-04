@@ -31,9 +31,9 @@ public class ClientServer {
 
             while (true){
 
-                String strServer = inServer.nextLine();
+                String strServer = inServer.nextLine(); // Слушаем сервер
 
-                String strClient = inClient.nextLine();
+                String strClient = inClient.nextLine(); // Слушаем консоль
 
 
                 if (strServer.equals("end")){
